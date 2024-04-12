@@ -1,19 +1,12 @@
-import "./styles/style.css";
+import { dropDown } from "./dropDownBtn";
+import { displayImage } from "./displayImg";
 
-// terminal \\
+const btn1 = document.querySelector(".button");
+const showDiv1 = document.querySelector("#list-items");
+const btn2 = document.querySelector(".button2");
+const showDiv2 = document.querySelector("#list-items2");
 
-// npm init -y
-// npm install webpack webpack-cli --save-dev
+dropDown(btn1, showDiv1);
+dropDown(btn2, showDiv2);
 
-//To bundle the lodash dependency with index.js, we'll need to install the library locally:
-//npm install --save lodash
-
-// ADD  "build": "webpack" to package.json
-
-//npm install --save-dev @babel/core
-
-//npm install --save-dev html-webpack-plugin
-
-//npm install --save-dev style-loader css-loader
-
-// npm install --save-dev webpack-dev-server
+displayImage();
