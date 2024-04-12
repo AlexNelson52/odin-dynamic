@@ -56,5 +56,7 @@ function switchImageBack(backBtn, imgEle, parentEle, picArr) {
 }
 
 function circleClick(imgEle, picArr) {
-  circle1.addEventListener("click", () => {});
+  circle1.addEventListener("click", () => {
+    imgEle.src = picArr[0];
+  });
 }
