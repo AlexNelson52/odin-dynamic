@@ -9,6 +9,7 @@ import "./styles/style.css";
 //npm install --save lodash
 
 // ADD  "build": "webpack" to package.json
+// ADD  "dev": "webpack serve" to package.json
 
 //npm install --save-dev @babel/core
 
